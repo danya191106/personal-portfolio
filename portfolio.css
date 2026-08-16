@@ -380,8 +380,6 @@ header {
 .project-card {
     display: grid;
 
-    grid-template-columns: 0.8fr 1.2fr;
-
     background: #111827;
 
     border: 1px solid #1e293b;

@@ -390,7 +390,7 @@ header {
 
     overflow: hidden;
 
-    max-width: 900px;
+    max-width: 800px;
 
     margin: auto;
 
@@ -411,10 +411,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.project-icon span{
-   font-size: 80px;
 }
 
 .code-symbol {

@@ -414,7 +414,7 @@ header {
 }
 
 .project.icon {
-   font-size: 60px;
+   font-size: 80px !important;
 }
 
 .code-symbol {

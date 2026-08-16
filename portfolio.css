@@ -413,6 +413,10 @@ header {
     justify-content: center;
 }
 
+.project-icon span{
+   font-size: 80px;
+}
+
 .code-symbol {
     font-size: 80px;
 

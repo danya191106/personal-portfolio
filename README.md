@@ -2,6 +2,8 @@
 
 A personal portfolio website designed to showcase my profile, skills, projects, and contact information as a Computer Science Engineering student.
 
+## 🌐Live Demo  https://danyaloganathan-portfolio.netlify.app
+
 ## 📌 Project Overview
 
 This portfolio website provides a simple and professional way to introduce myself, showcase my technical skills, highlight my projects, and provide contact links.

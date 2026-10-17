@@ -438,6 +438,117 @@ section {
     text-transform: uppercase;
 }
 
+/* =========================================
+   CERTIFICATIONS
+========================================= */
+
+.cert-card {
+    height: 100%;
+    position: relative;
+    padding: 32px;
+    background: #111111;
+    border: 1px solid #1f1f1f;
+    transition: all 0.35s ease;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cert-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: #e63946;
+    transition: width 0.4s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-6px);
+    border-color: #2a2a2a;
+    background: #141414;
+}
+
+.cert-card::before {
+    width: 100%;
+}
+
+.cert-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 22px;
+    background: rgba(230, 57, 70, 0.08);
+    border: 1px solid rgba(230, 57, 70, 0.25);
+    color: #e63946;
+    font-size: 1.8rem;
+    transition: 0.35s ease;
+}
+
+.cert-card:hover .cert-icon {
+    background: #e63946;
+    color: #ffffff;
+    border-color: #e63946;
+    transform: scale(1.05);
+}
+
+.cert-card h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: -0.01rem;
+}
+
+.cert-issuer {
+    color: #e63946;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.cert-date {
+    columns: #909090;
+    font-size: 0.85rem;
+    margin-bottom: 18px;
+}
+
+.cert-date i {
+    color: #e63946;
+}
+
+.cert-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    color: #e63946;
+    background: rgba(230, 57, 70, 0.08);
+    border: 1px solid rgba(230, 57, 70, 0.3);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+a.cert-badge {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+a.cert-badge:hover {
+    background: #e63946;
+    color: #ffffff;
+    border-color: #e63946;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
+}
 
 /* =========================================
    PROJECTS

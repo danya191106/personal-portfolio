@@ -904,3 +904,34 @@ footer p {
         font-size: 2rem;
     }
 }
+
+/* =========================================
+   RESUME BUTTONS STYLING
+========================================= */
+
+/* View Resume button (Normal white border) */
+.secondary-btn i {
+    color: #e63946; /* Eye icon red color */
+}
+
+/* Download Resume button (Red fill) */
+.resume-btn {
+    background: #e63946;
+    color: #ffffff;
+    border: 1px solid #e63946;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-btn:hover {
+    background: #ff4d5a;
+    color: #ffffff;
+    border-color: #ff4d5a;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(230, 57, 70, 0.35);
+}
+
+.resume-btn i {
+    color: #ffffff;
+}
